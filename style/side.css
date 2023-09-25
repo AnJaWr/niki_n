@@ -258,13 +258,15 @@ background-size: cover;
   color: white;
   width: 100%;
   text-align: left;
-  font-size: 1.7rem;
+  font-size: 2.2rem;
 }
 .product_header_sub{
   color: white;
   width: 100%;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 .ico{
   width: 100%;
@@ -436,12 +438,17 @@ rgba(0, 0, 0, 0.6)), url(../img/stalagmit.jpg);
     display: flex;
     padding:0px 50px 30px 50px;
     flex-wrap: wrap;
+    color: rgb(0, 102, 51);
+    align-content: space-around;
     
     }
     .description_product p{
       text-align: justify;
     }
-  
+    .description_product h2{
+font-size: 1.8rem;
+font-weight: 700;
+    }
     .wall{
       background-image: url(../img/wall2.jpg);
       background-size: cover;

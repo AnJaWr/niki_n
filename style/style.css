@@ -116,6 +116,12 @@ background-color: white;
     flex-wrap: nowrap;
     width: 50%;
   }
+  .logo-contact{
+    width: 100%;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+  } 
 
   .logo_niki{
   height:50px;
@@ -128,6 +134,22 @@ background-color: white;
     margin-right: 20px;
     border-left: solid rgb(10, 145, 77)
   }
+  .logo_niki-contact{
+    height:50px;
+    width: 10%;
+      background-image: url(../img/niki_logo.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+      padding-right: 10px;
+      margin-right: 20px;
+      border-left: none
+    }
+    .logo_niki_description-contact{
+width: 70%;
+display: flex;
+color:rgb(0, 102, 51)
+    }
   .logo_niki-footer{
     height:73px;
     width: 73px;
@@ -229,6 +251,7 @@ rgba(0, 0, 0, 0.6)), url(../img/stalagmit.jpg);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 .img_container{
   background-size: cover;
@@ -333,8 +356,8 @@ background-size: cover;
 }
 
 .realisations_header{
-  width: 60%;
   font-size: 1.8rem;
+  width: 100%;
   margin: 40px 10px 60px 10px;
   text-transform: uppercase;
   color:rgb(0, 102, 51);
@@ -347,12 +370,16 @@ background-size: cover;
   flex-wrap: wrap;
 }
 .rel_item_short{
-width: 30%;
-height: 70vh;
-font-size: 1.2rem;
+width: 25%;
+font-size: 1rem;
 align-items: center;
-justify-content: center;
+justify-content: left;
+height: fit-content;
+padding-left: 30px;
+margin-top: 20%;
+margin-left: 5%;
 display: flex;
+border-left: solid rgb(0, 102, 51)
 }
 .rel_item_long{
 width: 70%;
@@ -650,10 +677,21 @@ color: white;
   justify-content: right;
 
 }
+.dane{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 1.2rem;
+  border-left: solid rgb(0, 102, 51);
+  padding-left: 30px;
+  height: fit-content;
+margin-top: 30px;}
+
 .item-contact{
   width: 100%;
   margin: 5px 0 5px 0;
   padding: 0;
+  color: rgb(0, 102, 51)
 }
 
 .socialmedia-contact{
@@ -748,6 +786,7 @@ background-image: url(../img/logo_grid/katowice.png);
   flex-wrap: wrap;
   width: 100%;
   min-height: 28vh;
+  align-items: center;
 }
 .footer_contact_item{
   width: 33%;
@@ -757,11 +796,7 @@ background-image: url(../img/logo_grid/katowice.png);
   justify-content: center;
   align-content: center;
 }
-.footer_contact_prv{
 
-  justify-content: right;
-
-}
 .footer_item{
   width: 100%;
   margin: 5px 0 5px 0;
@@ -776,9 +811,10 @@ background-image: url(../img/logo_grid/katowice.png);
 }
 .footer_item-privacy{
   display: flex;
-  height: 100%;
+  width: 100%;
   align-items: flex-end;
-  justify-items: right;
+  justify-content: right;
+  margin-right:30px
 }
 .footer_item-privacy a{
   text-decoration: none;
@@ -884,6 +920,8 @@ background-image: url(../img/logo_grid/katowice.png);
       margin-right: 20px;
       border-left: none
     }
+    
+  
 
 .progress{
   display: none
@@ -951,7 +989,7 @@ background-image: url(../img/logo_grid/katowice.png);
 .realisations_header{
   width: 80%;
   margin: 20px 5px;
-  font-size: 1.2rem;
+  font-size: 1.5em;
 
 }
 .rel_item_long{
