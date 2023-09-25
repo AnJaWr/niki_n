@@ -241,7 +241,19 @@ background-size: cover;
   display: flex;
   flex-wrap: wrap;
 }
-
+.detal{
+  width: 50%;
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.detal-1{
+  background-image: url(../img/detal1.jpg);
+}
+.detal-2{
+  background-image: url(../img/detal2.jpg);
+}
 .porduct_header{
   color: white;
   width: 100%;
@@ -258,6 +270,7 @@ background-size: cover;
   width: 100%;
   display: flex;
 justify-content: center;
+justify-items: center;
 
 }
 .button_container{

@@ -199,7 +199,7 @@ background-color: white;
   }
   .sciana{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)), url(../img/mpc7.jpg)
+    rgba(0, 0, 0, 0.6)), url(../img/mp2.jpg)
 
   }
   .sciana_double{
@@ -269,9 +269,10 @@ background-size: cover;
 
 .description_text{
 
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: justify;
 }
+
 
 .description_text-two{
   width: 90%;
@@ -377,8 +378,32 @@ background-size: cover;
   background-repeat: no-repeat, no-repeat;
 }
 .mp3{
-  background-image: url(../img/mp3.jpg);
+  background-image: url(../img/mpx.jpg);
 }
+.siemki{
+  background-image: url(../img/column2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.anker{
+  background-image: url(../img/anker2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.anker-single {
+  background-image: url(../img/anker3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.oslo_prv{  background-image: url(../img/oslo_prv.jpg);
+  background-position: center;
+  background-size: contain;  background-repeat: no-repeat;}
+
+
+
 .ico{
   width: 100%;
   display: flex;
@@ -679,7 +704,43 @@ width: 95%;
 }
 
 /* produkty */
+.logo_greed{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 20px 50px 20px;
+  justify-content: center;
 
+}
+.logos_container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logo-item{
+  width: 20%;
+  min-height: 15vh;
+  padding:10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.katowice{
+background-image: url(../img/logo_grid/katowice.png);
+}
+.mpc_logo{
+  background-image: url(../img/logo_grid/mpc_logo.png);
+}
+.JCommerce{
+  background-image: url(../img/logo_grid/JCommerce.png);
+}
+.anker_logo{
+  background-image: url(../img/logo_grid/anker.jpg);
+}
+.bk{
+  background-image: url(../img/logo_grid/bk.jpeg);
+}
 
 /* footer */
 .footer{
@@ -896,6 +957,13 @@ width: 95%;
 .rel_item_long{
   width: 100%;  height: 50vh;
   background-repeat: no-repeat;
+  
+}
+.rel_item_long-mobile{
+  width: 100%;  height: 50vh;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 30px;
   
 }
 .rel_item_short{
