@@ -347,6 +347,7 @@ background-size: cover;
   width: 100%;
   text-align: left;
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 .realisations{
   width: 100%;
@@ -390,6 +391,7 @@ background-size: cover;
 .berendowicz{
   background-image: url(../img/1.jpg);
   background-position: bottom;
+  height: 90vh;
 }
 
 .com{
@@ -485,7 +487,7 @@ height: 100vh;
 
 .main_wrapper_faq{
   width: 100%;  
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -756,6 +758,9 @@ width: 95%;
   flex-wrap: wrap;
   justify-content: center;
 }
+.logos_container h2{
+  color: rgb(0, 102, 51)
+}
 .logo-item{
   width: 20%;
   min-height: 15vh;
@@ -785,7 +790,7 @@ background-image: url(../img/logo_grid/katowice.png);
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 28vh;
+  min-height: 20vh;
   align-items: center;
 }
 .footer_contact_item{
@@ -808,6 +813,7 @@ background-image: url(../img/logo_grid/katowice.png);
   text-decoration: none;
   font-weight: bold;
   color: rgb(0, 102, 51);
+  cursor: pointer;
 }
 .footer_item-privacy{
   display: flex;

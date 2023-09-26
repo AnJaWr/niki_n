@@ -199,11 +199,9 @@ background-color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)), url(../img/hydro.jpg)
   }
-  .sciana{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)), url(../img/mpc7.jpg)
-
-  }
+  .sciana {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/mp2.jpg);
+}
   .sciana_double{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)), url(../img/wall_d.jpg)
@@ -299,12 +297,23 @@ justify-items: center;
 
 
 /* footer */
+
 .footer{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 28vh;
+  min-height: 20vh;
+  align-items: center;
 }
+.dane{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 1.2rem;
+  border-left: solid rgb(0, 102, 51);
+  padding-left: 30px;
+  height: fit-content;
+margin-top: 30px;}
 .footer_contact_item{
   width: 33%;
   display: flex;
@@ -313,11 +322,7 @@ justify-items: center;
   justify-content: center;
   align-content: center;
 }
-.footer_contact_prv{
 
-  justify-content: right;
-
-}
 .footer_item{
   width: 100%;
   margin: 5px 0 5px 0;
@@ -329,10 +334,88 @@ justify-items: center;
   text-decoration: none;
   font-weight: bold;
   color: rgb(0, 102, 51);
+  cursor: pointer;
 }
 .footer_item-privacy{
   display: flex;
-  height: 100%;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: right;
+  margin-right:30px
+}
+.footer_item-privacy a{
+  text-decoration: none;
+  color:rgb(0, 102, 51);
+  margin-bottom: 20px;
+}
+.socialmedia{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.socialmedia_item{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-right:20px
+}
+
+.logo_niki-contact{
+  height:50px;
+  width: 10%;
+    background-image: url(../img/niki_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10px;
+    margin-right: 20px;
+    border-left: none
+  }
+  .logo_niki_description-contact{
+width: 70%;
+display: flex;
+color:rgb(0, 102, 51)
+  }
+.logo_niki-footer{
+  height:73px;
+  width: 73px;
+    background-image: url(../img/niki_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    padding-left: 50px;
+
+  }
+.logo_greenf{
+  height: 50px;
+  width: 20vw;
+  background-image: url(../img/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+
+}
+.logo_niki_description{
+width: 20vw;
+height: 50px;
+display: flex;
+color: rgb(0, 102, 51);
+align-items: center;
+font-size: 1rem;
+
+}
+
+.wyslijpost a,
+.zadzwon a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 102, 51);
+}
+.footer_item-privacy{
+  display: flex;
+width: 100%;
   align-items: flex-end;
   justify-items: right;
 }
@@ -345,6 +428,7 @@ justify-items: center;
   display: flex;
   flex-wrap: wrap;
 }
+
 
 .socialmedia_item{
   width: 30px;
@@ -374,38 +458,6 @@ justify-items: center;
   display: none;
 }
 
-
-
-.hydro{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-  rgba(0, 0, 0, 0.6)), url(../img/hydro.jpg)
-}
-.sciana{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-  rgba(0, 0, 0, 0.6)), url(../img/mpc7.jpg)
-
-}
-.sciana_double{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-  rgba(0, 0, 0, 0.6)), url(../img/wall_d.jpg)
-}
-.sciana_single{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-  rgba(0, 0, 0, 0.6)), url(../img/2.jpg);
-}
-.sznur{
-background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-rgba(0, 0, 0, 0.6)), url(../img/sznur.jpg)
-}
-.kolumna{
-background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-rgba(0, 0, 0, 0.6)), url(../img/kolumna.JPG);
-}
-
-.stalagmit{
-background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-rgba(0, 0, 0, 0.6)), url(../img/stalagmit.jpg);
-}
     /* ====================button ==================== */
 
     
@@ -454,6 +506,13 @@ font-weight: 700;
       background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    padding:20px; 
+    }
+    .wall2b{
+      background-image: url(../img/wall2b.jpg);
+      background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
     padding:20px; 
     }
     .sznur2{
@@ -576,6 +635,9 @@ min-height: 90vh;
     justify-content: center;
     align-content: center;
     padding: 30px 0px 30px 0px;
+     }
+     .container_serv div{
+      font-size:1.4rem;
      }
      .container_header{
       width: 100%;
@@ -743,6 +805,7 @@ min-height: 90vh;
 .margin_top{
   padding-top: 30px;
 }
+
 
 .footer_contact_item{
   width: 100%;

@@ -1,7 +1,5 @@
-
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var odnosnik1 = document.getElementById('wall_1');
+document.addEventListener('DOMContentLoaded', function() {
+  var odnosnik1 = document.getElementById('wall_1');
   var stalagmit = document.getElementById('stalagmit');
   var kolumna = document.getElementById('kolumna');
   var hydro = document.getElementById('hydro');
