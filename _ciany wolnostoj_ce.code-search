@@ -1,0 +1,36 @@
+# Query: ściany wolnostojące
+# ContextLines: 1
+
+6 results - 6 files
+
+hydro.html:
+  118                <h2 class="porduct_header">PLANTWALL MODULE</h2>
+  119                <h2 class="porduct_header">PLANTWALL MODULE</h2>
+  120:               <h3 class="product_header_sub">ściany wolnostojące</h3>
+  120              </div>
+  121              </div>
+
+index.html:
+  167              <h2 class="porduct_header">PLANTWALL MODULE </h2>
+  168:             <h3 class="product_header_sub"> WOLNOSTOJĄCA ZIELONA ŚCIANA </h3>
+  169            </div>
+
+kolumna.html:
+  96                <h2 class="porduct_header">PLANTWALL MODULE</h2>
+  97:               <h3 class="product_header_sub">WOLNOSTOJĄCA ZIELONA ŚCIANA</h3>
+  98              </div>
+
+stalagmit.html:
+  86                <h2 class="porduct_header">PLANTWALL MODULE</h2>
+  87:               <h3 class="product_header_sub">WOLNOSTOJĄCA ZIELONA ŚCIANA</h3>
+  88              </div>
+
+sznur.html:
+  86                <h2 class="porduct_header">PLANTWALL MODULE</h2>
+  87:               <h3 class="product_header_sub">WOLNOSTOJĄCA ZIELONA ŚCIANA</h3>
+  88              </div>
+
+wall.html:
+  113                <h2 class="porduct_header">PLANTWALL MODULE</h2>
+  114:               <h3 class="product_header_sub">WOLNOSTOJĄCA ZIELONA ŚCIANA</h3>
+  115              </div>
