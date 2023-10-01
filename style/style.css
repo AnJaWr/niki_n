@@ -401,6 +401,12 @@ background-size: cover;
   background-size: 33%, 33%, 33%;
   background-repeat: no-repeat, no-repeat, n0-repeat;
 }
+.scor{
+  background-image: url(../img/mnkc.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 60vh;
+}
 .mp{
   background-image: url(../img/mp.jpg), url(../img/mp2.jpeg);
   background-position: right bottom, left top;
@@ -604,6 +610,25 @@ padding:20px;
   bottom: 8px;
   background: currentColor
  } 
+#service{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+ .service_one{
+width: 60%;
+height: 100vh;
+background-color: rgb(0, 102, 51);
+ }
+ .service_two{
+background-image: url(../img/biker.jpg);
+background-size: cover;
+background-position: bottom;
+background-repeat: no-repeat;
+width: 40%;
+background-color: rgb(0, 102, 51);
+ }
 
 @media screen and (max-width: 768px) {
   
@@ -1061,4 +1086,29 @@ padding:35px;
 {width: 100%;
 justify-content: center;
 font-size: 0.8rem;}
+
+#service{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+
+  
 }
+ .service_one{
+width: 100%;
+height: fit-content;
+background-color: rgb(0, 102, 51);
+ }
+ .service_two{
+background-image: url(../img/biker.jpg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 60vh;
+background-color: rgb(0, 102, 51);
+ }
+ .scor
+{background-size: contain;
+background-position: center;
+margin-bottom: 0;}}
