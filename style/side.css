@@ -549,7 +549,7 @@ font-weight: 700;
     }
     .kolumna2{
       background-image: url(../img/column.jpg);
-      background-size: cover;
+      background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     padding:20px; 
