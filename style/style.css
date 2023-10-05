@@ -420,7 +420,7 @@ background-size: cover;
 .siemki{
   background-image: url(../img/kolumna.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .anker{
