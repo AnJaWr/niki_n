@@ -306,12 +306,11 @@ justify-items: center;
   align-items: center;
 }
 .dane{
-  width: 100%;
   flex-wrap: wrap;
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-left: solid rgb(0, 102, 51);
-  padding-left: 30px;
+  padding-left: 20px;
   height: fit-content;
 margin-top: 30px;}
 .footer_contact_item{
